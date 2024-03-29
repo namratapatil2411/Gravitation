@@ -1,0 +1,491 @@
+
+/* *{
+    border: 1px solid red;
+} */
+
+.navbar-scrolled{
+    background-color: #031b4e;
+    color: black;
+  }
+
+h1, h2 ,h3, h4, h5, h6{
+    font-family: "DM Sans", sans-serif;
+}
+p{
+    font-family: "DM Sans", sans-serif;
+}
+
+.top,.dream1,.offer1{
+    position: relative;
+}
+
+.top1 h5::before{
+    position: absolute;
+    content: '';
+    top: 41%;
+    left: 12px;
+    transform: translatey(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #F45B1E;
+
+
+}
+
+#topheader{
+    display: none;
+}
+
+.bar{
+   color: #666666;
+   height: 50px;
+    
+}
+
+.search{
+    background-color: #FFFFFF;
+    height: 55px;
+    width: 55px;
+    padding: 20px 0;
+   
+}
+.quote{
+    background-color: #F45B1E;
+     height: 80px;
+    
+    padding-right:20px ;
+}
+
+.quote h5{
+    padding-right: 20px;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+#herosection{
+    background-image: url(../Images/Background/h4-2.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+
+}
+
+
+.hero1{
+    padding: 40px 0;
+}
+
+.hero1 h1{
+    font-size: 35px;
+    line-height: 45px;
+}
+.hero1 span, .dream1 span,.offer1 span{
+    
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 33px;
+    letter-spacing: 3.2px;
+}
+.hero1 p{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.hero1 button ,.dream1 button ,.offer1 button,.structure button ,#to button{
+    background-color: #F45B1E;
+    border: none;
+}
+.right{
+    background-color: black;
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    padding: 14px 12px
+} 
+#number p{
+    color: #121315;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    align-self: center;
+} 
+#number span{
+    color: #F45B1E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.about1{
+    position: relative;
+    height: 350px;
+    width: 450px;
+    margin: 20px 0;
+}
+.about1 h3 {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 700;
+    padding-left: 25px;
+   
+    margin-bottom: 11px;
+}
+.about1 h3::before{
+    position: absolute;
+    content: '';
+    top: 9%;
+    left: 4%;
+    transform: translatey(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #F45B1E;
+}
+.about1 p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+    padding: 0 10px;
+}
+#about img{
+    height: 80px;
+   
+}
+#about button{
+    border: none;
+    background: none;
+}
+
+#dream{
+    margin: 70px 0;
+}
+.dream1{
+    padding: 0 40px;
+}
+.dream1 h2,.offer1 h2{
+    color: #121315;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.dream1 p,.offer1 p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow", Sans-serif;
+    
+}
+.construction img{
+    height: 400px;
+    width: 100%;
+    
+}
+
+.check{
+    color:#F45B1E;
+    font-size: 10px;
+    line-height: 1;
+    min-width: 28px;
+    padding-top: 4px; 
+    
+}
+ .check i{
+    color: black;
+    background-color: #F45B1E;
+     padding: 10px 10px; 
+    border: 1px solid;
+     border-radius: 100%;
+}
+.dream1 span::before ,.offer1::before{
+    position: absolute;
+    content: '';
+    top: 2%;
+    left: 4%;
+    transform: translatey(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #F45B1E;  
+    
+}
+.youtube{
+    background-image: url(../Images/Background/h4-4.jpg);
+    background-size: cover;
+    position: relative;
+}
+.youtube1{
+    background-color: #FFFFFF;
+    color: #121315;
+    height: 78px;
+    width: 78px;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    position: absolute;
+    top: 40%;
+    left: 41%;
+}
+.offer1::before{
+     top: 2%;
+    left: 2%;
+
+}
+.offer1 span{
+    padding: 0 40px;
+}
+.structure{
+    background-image: url(../Images/Background/h4-6.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+}
+.structure{
+    position: relative;
+    padding: 70px 70px;
+   
+    
+}
+.back1{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 20%;
+    padding: 70px 93px;
+    margin: 0 70px;
+}
+.back1{
+    display: none;
+}
+ .build{
+    background-image: url(../Images/Background/stroke-house.png);
+    /* background-size: 100% 100%; */
+    background-color: rgba(0, 0, 0, 0.821);
+    height: 700px;
+    position: relative;
+} 
+.build1{
+    position: absolute;
+    top: 20%;
+    left: 60px;
+}
+.build1 span{
+    line-height: 40px;
+}
+.build1 span, .build1 p,.customer1 span ,.customer1 p,.banner1 span,.test1 span{
+    color: #999999;
+   
+}
+
+.customer2 i{
+    color: #F45B1E;
+    font-size: 40px;
+}
+/* .banner1 p{
+    padding: 0 270px;
+} */
+
+#card{
+    padding: 0px 30px;
+}
+
+.card1 img{
+    height: 300px;
+    /* width: 300px; */
+}
+.card-body{
+    text-align: center;
+    padding: 60px 0;
+}
+.card-body p{
+    padding: 0 30px;
+}
+
+.banner2{
+    position: relative;
+}
+.project1{
+    position: absolute;
+    top: 15%;
+    margin: 40px 90px;
+}
+.icon i,.project3 i{
+    background-color: #121315;
+    height: 40px;
+    width: 40px;
+    padding: 10px 0;
+}
+
+.globe1 span ,h2{
+    line-height: 50px;
+}
+
+.test1 h2{
+padding-bottom: 40px;
+}
+.test1 p{
+    padding: 40x;
+}
+.mr{
+    padding-top:70px;
+}
+.viwe{
+    padding-top: 130px;
+}
+.card-img-overlay{
+    top: 30%;
+    left: 40%;
+}
+.foot1 img{
+  height: 100px;
+  width: 200px;
+}
+.foot4 ul li i{
+    color: #F45B1E;
+}
+ .pro{
+    display: none;
+}
+.project1{
+    display: none;
+}
+#herosection img{
+    display: none;
+}
+
+/* .sectionhead p::before{
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    text-align: center;
+    width: 60px;
+    height: 2px;
+    content: "";
+    bottom: 0;
+    margin: auto;
+    background: #d32f2f;
+} */
+
+
+@media only screen and (min-width: 768px){
+    .hero1{
+        padding: 60px 0;
+    }
+    .hero1 p{
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+    
+    .hero1 h1{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .hero1 span{
+        line-height: 33px;
+    }
+  
+    .number1{
+        padding: 0 40px;
+    }
+    .about1{
+        height: 300px;
+    }
+    .dream1 h2,.offer1 h2{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .dream1 p,.offer1 p{
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+    .back1{
+        display: block;
+    }
+    #herosection img{
+        display: block;
+    }
+    #customer span::before{
+        position: absolute;
+        content: '';
+        top: 8%;
+        left: 39%;
+        transform: translatey(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #F45B1E;
+    }
+    #customer span::after{
+        position: absolute;
+        content: '';
+        top: 8%;
+        left: 60%;
+        transform: translatey(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #F45B1E;
+    }
+    .card1 img{
+        height: 300px;
+        /* width: 300px; */
+    }
+   
+
+}
+@media only screen and (min-width: 1200px){
+    
+    .hero1{
+        padding: 120px 80px;
+    } 
+    .hero1 h1{
+        font-size: 55px;
+        line-height: 70px;
+    } 
+    #topheader{
+        display: block;
+
+    }
+    .hero2 img{
+        display: block;
+    }
+    .back1{
+        display: block;
+    }
+    .banner1 p{
+        padding: 0 270px;
+    }
+    .customer1 p {
+        padding: 10px 150px;
+    }
+    .project1{
+        display: block;
+    }
+    .project3{
+        background-color: #F45B1E;
+        padding: 30px 0px;
+    }
+    .pro{
+        display: block;
+    }
+    #herosection img{
+        display: block;
+    }
+    #customer span::before{
+        position: absolute;
+        content: '';
+        top: 11%;
+        left: 43%;
+        transform: translatey(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #F45B1E;
+    }
+    #customer span::after{
+        position: absolute;
+        content: '';
+        top: 11%;
+        left: 56%;
+        transform: translatey(-50%);
+        width: 8px;
+        height: 8px;
+        background-color: #F45B1E;
+    }
+}
