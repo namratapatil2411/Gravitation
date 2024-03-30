@@ -14,3 +14,4 @@ This project serves as a demonstration of my creativity and knowledge in web des
 - Javascript
 
 ## Screenshots
+![Screenshot (17)](https://github.com/namratapatil2411/Graviton/assets/142895142/8fc55475-465e-4777-83f2-8c3cc841fb6c)
